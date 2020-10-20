@@ -1,0 +1,267 @@
+/* Main */
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+}
+
+body {
+  font-family: "Architects Daughter", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+  opacity: 1.2;
+}
+
+/* Table bg */
+
+.table-bg {
+  background-image: url(../img/tableBg.jpg);
+  width: 100wh;
+  height: 160vh;
+}
+
+/* Main container */
+
+.body-container {
+  background-image: url(../img/NewspaperBg.jpg);
+  width: 75%;
+  height: 160vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin: 0 auto;
+}
+
+/* Container */
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.border {
+  justify-content: space-between;
+  border-bottom: 4px double black;
+  padding-bottom: 10px;
+  border-top: 4px double black;
+  padding-top: 10px;
+}
+
+.logo {
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Post 1 */
+
+.main-title {
+  text-align: center;
+}
+
+.post-text {
+  width: 520px;
+}
+
+.post-foto {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.first-post {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+/* foto-post */
+
+.foto-post {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  border-top: 2px solid;
+  padding-top: 30px;
+
+  padding-bottom: 70px;
+  border-bottom: 4px double black;
+}
+
+/* index1 */
+
+.tur-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.tur-img {
+  width: 400px;
+}
+
+.tur-post {
+  width: 520px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* gallery */
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 4px double black;
+}
+.img-size {
+  width: 300px;
+  height: 220px;
+  margin: 15px;
+}
+
+/* nav */
+
+.nav-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* index2 */
+
+.contacts-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contacts-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-date,
+.contacts-price {
+  font-size: 76px;
+  line-height: 80px;
+  color: black;
+  font-family: "Anton", sans-serif;
+}
+.contacts-images {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+.contacts-date span,
+.contacts-price span {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Anton", sans-serif;
+  color: #000000;
+}
+.contacts-date span {
+  margin-left: 200px;
+  margin-top: -10px;
+}
+.contacts-price span {
+  margin-left: 200px;
+  margin-top: -10px;
+}
+.contacts-form {
+  min-width: 383px;
+  margin: 0 auto;
+}
+.contacts__form-title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 50px;
+  font-family: "RobotoCondensed-Regular";
+}
+.contacts__form-input {
+  border: 1px solid black;
+  display: block;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 100%;
+  padding: 0 31px;
+}
+.contact__form-btn {
+  border: 1px solid black;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: transparent;
+  padding: 11px 45px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+/* our-trip */
+
+.our-trip__container {
+  max-width: 1230px;
+  margin: 0 auto;
+  float: left;
+
+  padding-bottom: 10px;
+  border-bottom: 4px double black;
+}
+
+.our-trip__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: start;
+}
+.our-trip__list {
+  margin: 5px 0;
+  float: left;
+  font-size: 24px;
+  line-height: 28px;
+}
+.our-trip__list li:first-child {
+  font-family: "RobotoCondensed-Regular";
+  margin-bottom: 20px;
+}
+.our-trip__btn {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "RobotoCondensed-Light";
+  border: 1px solid black;
+  padding: 11px 53px;
+  margin-left: 40px;
+}
+.our-trip__content {
+  width: 50%;
+  padding-right: 55px;
+}
+
+/* footer */
+.footer-container {
+  margin: 0 auto;
+  max-width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
